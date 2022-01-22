@@ -82,6 +82,11 @@ export interface MazeInt {
 
 export class Maze implements MazeInt {
     _rooms: Room[] = []
+
+    constructor() {
+        console.log('Normal maze created');
+    }
+
     get rooms() { return this._rooms; }
     addRoom(room: RoomInt){
         this._rooms.push(room);
@@ -91,31 +96,16 @@ export class Maze implements MazeInt {
     }
 }
 
-/** Creates the maze */
-class MazeGame {
-    static createMaze() : MazeInt {
-        let aMaze: Maze = new Maze();
-        let r1: Room = new Room(1);
-        let r2: Room = new Room(2);
-        let theDoor: Door = new Door(r1, r2);
+export class EnchantedMaze extends Maze {
+    _rooms: Room[] = []
 
-        aMaze.addRoom(r1);
-        aMaze.addRoom(r2);
-
-        r1.setSide(Direction.North, new Wall());
-        r1.setSide(Direction.East, theDoor);
-        r1.setSide(Direction.South, new Wall());
-        r1.setSide(Direction.West, new Wall());
-
-        r2.setSide(Direction.North, new Wall());
-        r2.setSide(Direction.East, new Wall());
-        r2.setSide(Direction.South, new Wall());
-        r2.setSide(Direction.West, theDoor);
-        return aMaze;
+    constructor() {
+        super();
+        console.log('Enchanted maze created');
     }
 }
 
-export default MazeGame;
+
 
 
 
