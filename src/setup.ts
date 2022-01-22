@@ -77,10 +77,12 @@ export class Door implements DoorInt {
 export interface MazeInt {
     addRoom(room: RoomInt);
     roomNo(roomNo: number): RoomInt;
+    rooms: Room[];
 }
 
 export class Maze implements MazeInt {
     _rooms: Room[] = []
+    get rooms() { return this._rooms; }
     addRoom(room: RoomInt){
         this._rooms.push(room);
     }
@@ -109,7 +111,6 @@ class MazeGame {
         r2.setSide(Direction.East, new Wall());
         r2.setSide(Direction.South, new Wall());
         r2.setSide(Direction.West, theDoor);
-
         return aMaze;
     }
 }

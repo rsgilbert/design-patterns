@@ -1,9 +1,9 @@
 import MazeGame from './setup.js'
+// import { jest } from '@jest/globals'
 
 describe('MazeGame', () => {
     test('Creeates maze', () => {
-        // console.log = jest.fn;
-        MazeGame.createMaze();
-        expect(console.log).toHaveBeenCalled();
+        const maze = MazeGame.createMaze();
+        expect(maze.rooms).toHaveLength(2);
     });
 });
