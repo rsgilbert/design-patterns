@@ -1,3 +1,8 @@
+/**
+ * Implementing an abstract factory for furniture.
+ * See: https://refactoring.guru/design-patterns/abstract-factory
+ */
+
 import { ArtDecoChair, Chair, ModernChair, VictorianChair } from "./chair";
 import { ArtDecoCoffeeTable, CoffeeTable, ModernCoffeeTable, VictorianCoffeeTable } from "./coffee-table";
 import { ArtDecoSofa, ModernSofa, Sofa, VictorianSofa } from "./sofa";
@@ -7,6 +12,10 @@ export interface FurnitureFactory {
     createCoffeeTable() : CoffeeTable;
     createSofa(): Sofa;
 }
+
+
+// Below classes represent factories for the three variants of furniture, that is
+// art deco, victorian and modern furniture.
 
 class ArtDecoFactory implements FurnitureFactory {
     createChair() { return new ArtDecoChair(); }

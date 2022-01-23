@@ -1,4 +1,9 @@
-import { AndroidButton, Button, LinuxButton, MacButton, WinButton } from './button.js';
+/**
+ * Implementing an abstract factory for a gui.
+ * See: https://refactoring.guru/design-patterns/abstract-factory
+ */
+
+ import { AndroidButton, Button, LinuxButton, MacButton, WinButton } from './button.js';
 import { AndroidCheckbox, Checkbox, LinuxCheckbox, MacCheckbox, WinCheckbox } from './checkbox.js';
 
 // The abstract factory interface declares a set of 
