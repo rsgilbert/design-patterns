@@ -1,6 +1,8 @@
 /**
  * Implementing an abstract factory for furniture.
  * See: https://refactoring.guru/design-patterns/abstract-factory
+ * An abstract factory is an interface with a list of creation methods
+// for all products that are part of a product family.
  */
 
 import { ArtDecoChair, Chair, ModernChair, VictorianChair } from "./chair";

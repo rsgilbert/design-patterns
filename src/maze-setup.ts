@@ -91,8 +91,9 @@ export class Maze implements MazeInt {
     addRoom(room: RoomInt){
         this._rooms.push(room);
     }
+    
     roomNo(roomNo: number): RoomInt {
-        return 
+        return this._rooms.find(r => r._roomNumber === roomNo);
     }
 }
 

@@ -1,5 +1,6 @@
 
 import { MazeFactory } from "./abstract-factory/maze-factory";
+import { MazeBuilder, CountingMazeBuilder } from "./builder/maze-builder";
 import { Door, Maze, Room, Wall, MazeInt, Direction } from "./maze-setup";
 
 /** Creates the maze */
@@ -45,5 +46,40 @@ export class MazeGame {
         r2.setSide(Direction.South, new Wall());
         r2.setSide(Direction.West, theDoor);
         return maze;
+    }
+
+    static createMazeUsingBuilder(mazeBuilder: MazeBuilder) : Maze {
+        mazeBuilder.buildMaze();
+        mazeBuilder.buildRoom(1);
+        mazeBuilder.buildRoom(2);
+        mazeBuilder.buildDoor(1, 2);
+        return mazeBuilder.getMaze();
+    }
+
+    // director
+    static createComplexMazeUsingBuilder(mazeBuilder: MazeBuilder) : Maze {
+        mazeBuilder.buildMaze();
+        mazeBuilder.buildRoom(1);
+        mazeBuilder.buildRoom(2);
+        mazeBuilder.buildRoom(3);
+        mazeBuilder.buildRoom(4);
+        mazeBuilder.buildRoom(5);
+        mazeBuilder.buildRoom(6);
+        mazeBuilder.buildRoom(7);
+        mazeBuilder.buildRoom(8);
+        return mazeBuilder.getMaze();
+    }
+
+    // Below static method is a director for getting count of parts using a builder
+    static countPartsOfAMaze(countingMazeBuilder: CountingMazeBuilder): { rooms: number, doors: number } {
+        countingMazeBuilder.buildMaze();
+        countingMazeBuilder.buildRoom(1);
+        countingMazeBuilder.buildRoom(2);
+        countingMazeBuilder.buildRoom(3);
+        countingMazeBuilder.buildRoom(4);
+        countingMazeBuilder.buildRoom(5);
+        countingMazeBuilder.buildDoor(1, 2);
+        countingMazeBuilder.buildDoor(4, 3);
+        return countingMazeBuilder.getCount();
     }
 }
