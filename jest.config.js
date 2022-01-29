@@ -1,4 +1,4 @@
 export default {
     "rootDir": "dist",
-    "testRegex": "spec.js"
+    "testRegex": "(spec)|(test).js"
 }
