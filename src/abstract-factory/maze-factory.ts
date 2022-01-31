@@ -2,7 +2,7 @@
 // Our abstract factory contains a factory method for each kind of product to 
 // create for a given family of products.
 
-import { Door, EnchantedMaze, Maze, Room, Wall } from "../maze-setup";
+import { BombedWall, Door, EnchantedMaze, Maze, Room, RoomWithBomb, Wall } from "../maze-setup";
 
 /**
  * Abstract factory class
@@ -34,19 +34,7 @@ export class EnchantedMazeFactory extends MazeFactory {
 
 }
 
-class BombedWall extends Wall {
-    constructor() {
-        super();
-        console.log('This wall could be bombed')
-    }
-}
 
-class RoomWithBomb extends Room {
-    constructor(roomNo) {
-        console.log('This room might have a bomb');
-        super(roomNo);
-    }
-}
 export class BombedMazeFactory extends MazeFactory {
     makeMaze() {
         return new Maze();

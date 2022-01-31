@@ -107,7 +107,19 @@ export class EnchantedMaze extends Maze {
 }
 
 
+export class BombedWall extends Wall {
+    constructor() {
+        super();
+        console.log('This wall could be bombed')
+    }
+}
 
+export class RoomWithBomb extends Room {
+    constructor(roomNo) {
+        console.log('This room might have a bomb');
+        super(roomNo);
+    }
+}
 
 
 
