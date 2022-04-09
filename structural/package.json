@@ -1,0 +1,12 @@
+{
+  "name": "structural",
+  "version": "1.0.0",
+  "description": "Structural patterns are concerned with how clases and objects are combined/composed to form larger structures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
