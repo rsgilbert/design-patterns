@@ -1,0 +1,83 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:/C=UG/L=Kampala/O=Mildmay Uganda Ltd/CN=*.mildmay.or.ug
+   i:/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=Thawte RSA CA 2018
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGWTCCBUGgAwIBAgIQBd5TLmPL+pzMyPCwTuDJ7TANBgkqhkiG9w0BAQsFADBc
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMRswGQYDVQQDExJUaGF3dGUgUlNBIENBIDIwMTgwHhcN
+MjEwNTE5MDAwMDAwWhcNMjIwNTI0MjM1OTU5WjBWMQswCQYDVQQGEwJVRzEQMA4G
+A1UEBxMHS2FtcGFsYTEbMBkGA1UEChMSTWlsZG1heSBVZ2FuZGEgTHRkMRgwFgYD
+VQQDDA8qLm1pbGRtYXkub3IudWcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDDDjnNYfNE8IiirvSLUBfQ0GReEIZ6LBjXQnuRWm0GVe3qjAhUAdx3xXfC
+/C9gzEHLimGTFIReHxr5zA/9cwkSXcIMmq2deC3vBglt0Tjxe+GeZ6zv0pJlwVJb
+bNKsh0oUl11Ii26MB2IwGt3W/30vb2B7g9v5VnoV1e5gGF8GwojWRWan77JXMG6K
++CeNngelniHYYLJnxjmngsCbv48uHJ8URe9e6h8+ILjpKCBJr6ouCPNYxMFX4oTO
+ajZursafppgrSHP3SqlHomtcIG+8omNwjig75mbzBmlDTG2yDmHRlnDxIhB/5QiA
++fJFRChwoF1AbGtHU44IBw49N1p5AgMBAAGjggMbMIIDFzAfBgNVHSMEGDAWgBSj
+yF5lVOUweMEF6gcKalnMuf7eWjAdBgNVHQ4EFgQUzClCb3Mc0K3Ydg5Y+gfB+ZaL
+NQ8wKQYDVR0RBCIwIIIPKi5taWxkbWF5Lm9yLnVngg1taWxkbWF5Lm9yLnVnMA4G
+A1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwOgYD
+VR0fBDMwMTAvoC2gK4YpaHR0cDovL2NkcC50aGF3dGUuY29tL1RoYXd0ZVJTQUNB
+MjAxOC5jcmwwPgYDVR0gBDcwNTAzBgZngQwBAgIwKTAnBggrBgEFBQcCARYbaHR0
+cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMG8GCCsGAQUFBwEBBGMwYTAkBggrBgEF
+BQcwAYYYaHR0cDovL3N0YXR1cy50aGF3dGUuY29tMDkGCCsGAQUFBzAChi1odHRw
+Oi8vY2FjZXJ0cy50aGF3dGUuY29tL1RoYXd0ZVJTQUNBMjAxOC5jcnQwDAYDVR0T
+AQH/BAIwADCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHYARqVV63X6kSAwtaKJ
+afTzfREsQXS+/Um4havy/HD+bUcAAAF5g4LWTAAABAMARzBFAiAp7WUKyqKPsSed
+8pkWEWtjqlpRGOUpKKkaMtn7gqeBHQIhAKagRlG+XP/6pQAfiwSrG/z4WOKnFmG0
+LTv5IqpH3gxgAHYAIkVFB1lVJFaWP6Ev8fdthuAjJmOtwEt/XcaDXG7iDwIAAAF5
+g4LWNQAABAMARzBFAiBWjiNMt3/zIAjDKG3D6jAgZ2ZK8Cov8NLzNnjPwNFYEAIh
+AMaSf5spmYbBZPh94kSPvUcKNRNCCpwaYrLGZ0p1OzvjAHYAUaOw9f0BeZxWbbg3
+eI8MpHrMGyfL956IQpoN/tSLBeUAAAF5g4LWbAAABAMARzBFAiBJMWJkCuhfhDUG
+xAIlWk1d+7U48pMNm3Rcdd525syuGwIhALtcpzwghsy3hPjWprh7ulX2xQc0tsli
+7ymzU4hfUwKAMA0GCSqGSIb3DQEBCwUAA4IBAQCyPE3uEKXKSAr6jJgMbEH+bT3s
+p9BlgSvmb1ANdbP+GXdqvM9bdiQPSfz6SsExOYaejISvHxAImPi/Sb65z8hbKhSt
+YcEYMdhu1+9bcskPb1/mEtagFGCZoYC+eIvynEF4yonI937fOOKXNCd/9KK7XN1K
+EE1H1OJJ8iFtTGOSLylB42FhqybNeG6FhGh4Tm6wZPJ66575v2IlLFHzUorXngL3
+xVWVlMaSsP+6+Vib0t4J82aSxQ7SmUkWmdZ6j8ogfxXD9VvHdSkGlwyST1xDPzKy
+dipz6rSP++iXNKdQzo5T1aFTRly5Or+LUwWsDIGrjSuBYRoq38mCux7IM+dC
+-----END CERTIFICATE-----
+subject=/C=UG/L=Kampala/O=Mildmay Uganda Ltd/CN=*.mildmay.or.ug
+issuer=/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=Thawte RSA CA 2018
+---
+No client certificate CA names sent
+Server Temp Key: ECDH, X25519, 253 bits
+---
+SSL handshake has read 2286 bytes and written 316 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: 002FED6F5B1FB71EE72C300B4C72105BD45BD51569B5D9513C04ED9D9DC33517
+    Session-ID-ctx: 
+    Master-Key: 765CB620D98569F39377671700AB041E32F4CAEE32F913FD82675B018502BC847E69C3A583FC03FA0B0DA938EB6CBFAC
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 8b b2 16 17 3a 64 95 27-df 4f 12 31 2e 86 89 3a   ....:d.'.O.1...:
+    0010 - 15 a4 6c 38 a4 91 40 54-8b 17 b1 5f 5e e3 1d ce   ..l8..@T..._^...
+    0020 - 78 5c b7 4b 90 04 61 a2-0e 61 2d 8c ad 57 0d 60   x\.K..a..a-..W.`
+    0030 - 97 ae 6d 4f 4a e3 03 e4-68 39 25 c1 91 ca a4 63   ..mOJ...h9%....c
+    0040 - 6a 96 83 f1 79 d7 36 cf-b2 de 7a 26 78 e7 57 56   j...y.6...z&x.WV
+    0050 - f7 ae 69 8e cc 3a 87 e8-56 ca 94 08 2d 06 65 70   ..i..:..V...-.ep
+    0060 - 90 51 ba 53 89 eb b6 3c-bd dd 4c 56 86 e5 21 dc   .Q.S...<..LV..!.
+    0070 - ab 06 58 90 a6 bd f5 d8-e7 d2 23 98 38 d4 c5 26   ..X.......#.8..&
+    0080 - 40 8b 9f 71 64 3a 4f a2-05 2e 01 82 8f 29 55 f3   @..qd:O......)U.
+    0090 - 3b f4 8b 99 3c da e8 66-f6 c4 49 ce 89 51 4f 27   ;...<..f..I..QO'
+    00a0 - f0 82 a1 03 51 90 32 93-b2 9b c6 e4 bc da 5b e3   ....Q.2.......[.
+    00b0 - 70 af 5a f7 6d de cc df-b8 81 46 d2 9b 78 3f 98   p.Z.m.....F..x?.
+
+    Start Time: 1649735793
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+---
+closed
