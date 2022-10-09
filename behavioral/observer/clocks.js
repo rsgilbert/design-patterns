@@ -27,13 +27,6 @@ class Subject {
     }
 
     /**
-     * Attach an observer to this subject
-     * @param { Observer}observer
-     */
-    attach(observer) {
-        this.#observers.push(observer)
-    }
-    /**
      * Attach/subscribe an observer to this subject.
      * The attached observer will receive updates to changes on this subject.
      * @param { Observer}observer
