@@ -1,12 +1,11 @@
+// best  implementation of  observable pattern in javascript
+// uses function as parameter syntax
 
 class Observable {
-    /**
-     * @type { ({ next }) => void }
-     */
+    /** @type { ({ next }) => void } */
     subscribeFn 
     
     /**
-     * 
      * @param {({ next }) => void } subscribeFn - logic that calls subscriber.next(v)
      */
     constructor(subscribeFn) {
@@ -20,6 +19,7 @@ class Observable {
         this.subscribeFn(subscriber)
     }
 }
+// end of  implementation
 
 const observable1 = new Observable(subscriber => {
     let cnt = 0
@@ -44,3 +44,11 @@ const observer2 = {
 observable1.subscribe(observer1)
 observable1.subscribe(observer2)
 
+// usage example 2
+const observable2 = new Observable(subscriber => {
+    subscriber.next(10)
+    subscriber.next(20)
+})
+
+const observer21 = { next: console.log }
+observable2.subscribe(observer21)
